@@ -45,7 +45,6 @@
 }
 
 .card {
-  overflow: hidden;
   background-color: var(--page-background-color);
   border: 2px solid var(--accent-color);
 }
@@ -59,7 +58,6 @@
 
 .card__image-wrapper {
   position: relative;
-  overflow: hidden;
   border-block: 2px solid var(--accent-color);
 }
 
@@ -351,10 +349,6 @@
 @media (width <= 375px) {
   .header {
     gap: 20px;
-  }
-
-  .card:first-child .card__title {
-    line-height: 21.5px;
   }
 
   .header__logo {
